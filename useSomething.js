@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-export default function useTextSelection(ref) {
+export default function useSomething(ref) {
     const [range, setRange] = useState(null);
 
     useEffect(() => {
